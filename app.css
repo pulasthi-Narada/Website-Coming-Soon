@@ -1,0 +1,59 @@
+html {
+  font: 1em Menlo, monospace, sans-serif;
+}
+body {
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+  margin: 2em;
+}
+.cursor {
+  display: inline-block;
+  width: 1ch;
+  height: 1em;
+  background-color: #f1f1f1;
+  vertical-align: bottom;
+  animation: 1s infinite blink;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  51% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.battery-main {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  vertical-align: center;
+  font-family: "Dosis", sans-serif;
+}
+
+h1 {
+  padding-top: 20px;
+  color: #ab8b76;
+}
+
+#root-user{
+    color: red;
+}
+
+#root-directory {
+    color: rgb(19, 22, 221);
+}
+
+
+#battery {
+  color: #0a7b1c;
+  font-size: 10em;
+}
